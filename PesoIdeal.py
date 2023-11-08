@@ -5,8 +5,8 @@ alvomin=0
 alvomax=0
 while True:
     print("CALCULADORA DE PESO/MASSA IDEAL CONFORME IMC")
-    altura = int(input("Quantos centímetros você tem de altura? "))
-    massa = int(input("Quantos quiilogramas você tem de peso/massa? "))
+    altura = int(input("Qual sua altura? Informe apenas 3 números: "))
+    massa = int(input("Qual seu peso/massa? Não informe valores decimais: "))
     imc=massa/((altura*altura)/10000)
     alvomin=((altura*altura)*18.5)/10000
     alvomax=((altura*altura)*24.99)/10000
