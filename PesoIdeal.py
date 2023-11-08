@@ -33,3 +33,6 @@ while True:
     else:
         print("Você está em OBESIDADE MÓRBIDA.\nSeu peso/massa ideal é entre",round(alvomin,2),"e",round(alvomax,2),"quilogramas.")
         print("####\n")
+    continuar = input("Deseja continuar? Digite S ou N): ")
+    if continuar.lower() != 's':
+        break
