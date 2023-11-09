@@ -11,7 +11,7 @@ while True:
     alvomin=((altura*altura)*18.5)/10000
     alvomax=((altura*altura)*24.99)/10000
     print("\n####")
-    print("Seu IMC é",round(imc,2))
+    print(f"Seu IMC é {round(imc,2)}.")
     if imc < 17:
         print("Você está MUITO ABAIXO do peso/massa ideal.\nSeu peso/massa ideal é entre",round(alvomin,2),"e",round(alvomax,2),"quilogramas.")
         print("####\n")
